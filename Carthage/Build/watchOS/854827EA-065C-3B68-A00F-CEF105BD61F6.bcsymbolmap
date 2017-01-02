@@ -1,0 +1,708 @@
+BCSymbolMap Version: 1.0
++[BFTaskCompletionSource taskCompletionSource]
+-[BFTaskCompletionSource init]
+-[BFTaskCompletionSource setResult:]
+-[BFTaskCompletionSource setError:]
+-[BFTaskCompletionSource setException:]
+-[BFTaskCompletionSource cancel]
+-[BFTaskCompletionSource trySetResult:]
+-[BFTaskCompletionSource trySetError:]
+-[BFTaskCompletionSource trySetException:]
+-[BFTaskCompletionSource trySetCancelled]
+-[BFTaskCompletionSource task]
+-[BFTaskCompletionSource .cxx_destruct]
+OBJC_METH_VAR_NAME_
+OBJC_SELECTOR_REFERENCES_
+OBJC_METH_VAR_NAME_.1
+OBJC_SELECTOR_REFERENCES_.2
+OBJC_CLASSLIST_SUP_REFS_$_
+OBJC_CLASSLIST_REFERENCES_$_
+OBJC_IVAR_$_BFTaskCompletionSource._task
+OBJC_METH_VAR_NAME_.3
+OBJC_SELECTOR_REFERENCES_.4
+OBJC_METH_VAR_NAME_.5
+OBJC_SELECTOR_REFERENCES_.6
+OBJC_CLASSLIST_REFERENCES_$_.7
+.str
+_unnamed_cfstring_
+OBJC_METH_VAR_NAME_.8
+OBJC_SELECTOR_REFERENCES_.9
+OBJC_METH_VAR_NAME_.10
+OBJC_SELECTOR_REFERENCES_.11
+.str.12
+_unnamed_cfstring_.13
+OBJC_METH_VAR_NAME_.14
+OBJC_SELECTOR_REFERENCES_.15
+.str.16
+_unnamed_cfstring_.17
+OBJC_METH_VAR_NAME_.18
+OBJC_SELECTOR_REFERENCES_.19
+.str.20
+_unnamed_cfstring_.21
+OBJC_CLASS_NAME_
+OBJC_METH_VAR_NAME_.22
+OBJC_METH_VAR_TYPE_
+l_OBJC_$_CLASS_METHODS_BFTaskCompletionSource
+l_OBJC_METACLASS_RO_$_BFTaskCompletionSource
+OBJC_CLASS_NAME_.23
+OBJC_METH_VAR_NAME_.24
+OBJC_METH_VAR_TYPE_.25
+OBJC_METH_VAR_NAME_.26
+OBJC_METH_VAR_NAME_.27
+OBJC_METH_VAR_NAME_.28
+OBJC_METH_VAR_TYPE_.29
+OBJC_METH_VAR_TYPE_.30
+OBJC_METH_VAR_TYPE_.31
+OBJC_METH_VAR_NAME_.32
+l_OBJC_$_INSTANCE_METHODS_BFTaskCompletionSource
+OBJC_METH_VAR_NAME_.33
+OBJC_METH_VAR_TYPE_.34
+l_OBJC_$_INSTANCE_VARIABLES_BFTaskCompletionSource
+OBJC_PROP_NAME_ATTR_
+OBJC_PROP_NAME_ATTR_.35
+l_OBJC_$_PROP_LIST_BFTaskCompletionSource
+l_OBJC_CLASS_RO_$_BFTaskCompletionSource
+OBJC_LABEL_CLASS_$
+Apple LLVM version 7.3.0 (clang-703.0.26)
+-[BFTaskCompletionSource .cxx_destruct]
+/Users/cooldude/Documents/MyCities/Carthage/Checkouts/Bolts-ObjC/Bolts/Common/BFTaskCompletionSource.m
+/Users/cooldude/Documents/MyCities/Carthage/Checkouts/Bolts-ObjC
+-[BFTaskCompletionSource task]
+/Users/cooldude/Documents/MyCities/Carthage/Checkouts/Bolts-ObjC/Bolts/Common/BFTaskCompletionSource.h
+-[BFTaskCompletionSource trySetCancelled]
+-[BFTaskCompletionSource trySetException:]
+-[BFTaskCompletionSource trySetError:]
+-[BFTaskCompletionSource trySetResult:]
+-[BFTaskCompletionSource cancel]
+-[BFTaskCompletionSource setException:]
+-[BFTaskCompletionSource setError:]
+-[BFTaskCompletionSource setResult:]
+-[BFTaskCompletionSource init]
++[BFTaskCompletionSource taskCompletionSource]
+-[BFTask init]
+-[BFTask initWithResult:]
+-[BFTask initWithError:]
+-[BFTask initWithException:]
+-[BFTask initCancelled]
++[BFTask taskWithResult:]
++[BFTask taskWithError:]
++[BFTask taskWithException:]
++[BFTask cancelledTask]
++[BFTask taskForCompletionOfAllTasks:]
+__38+[BFTask taskForCompletionOfAllTasks:]_block_invoke
+__copy_helper_block_
+__destroy_helper_block_
++[BFTask taskForCompletionOfAllTasksWithResults:]
+__49+[BFTask taskForCompletionOfAllTasksWithResults:]_block_invoke
+__copy_helper_block_.80
+__destroy_helper_block_.81
++[BFTask taskForCompletionOfAnyTask:]
+__37+[BFTask taskForCompletionOfAnyTask:]_block_invoke
+__copy_helper_block_.89
+__destroy_helper_block_.90
++[BFTask taskWithDelay:]
+__24+[BFTask taskWithDelay:]_block_invoke
+__copy_helper_block_.92
+__destroy_helper_block_.93
++[BFTask taskWithDelay:cancellationToken:]
+__42+[BFTask taskWithDelay:cancellationToken:]_block_invoke
+__copy_helper_block_.101
+__destroy_helper_block_.102
++[BFTask taskFromExecutor:withBlock:]
+__37+[BFTask taskFromExecutor:withBlock:]_block_invoke
+__copy_helper_block_.104
+__destroy_helper_block_.105
+-[BFTask result]
+-[BFTask trySetResult:]
+-[BFTask error]
+-[BFTask trySetError:]
+-[BFTask exception]
+-[BFTask trySetException:]
+-[BFTask isCancelled]
+-[BFTask isFaulted]
+-[BFTask trySetCancelled]
+-[BFTask isCompleted]
+-[BFTask runContinuations]
+-[BFTask continueWithExecutor:withBlock:]
+-[BFTask continueWithExecutor:block:cancellationToken:]
+__55-[BFTask continueWithExecutor:block:cancellationToken:]_block_invoke
+__55-[BFTask continueWithExecutor:block:cancellationToken:]_block_invoke_2
+__copy_helper_block_.139
+__destroy_helper_block_.140
+__copy_helper_block_.142
+__destroy_helper_block_.143
+__55-[BFTask continueWithExecutor:block:cancellationToken:]_block_invoke.145
+__copy_helper_block_.148
+__destroy_helper_block_.149
+-[BFTask continueWithBlock:]
+-[BFTask continueWithBlock:cancellationToken:]
+-[BFTask continueWithExecutor:withSuccessBlock:]
+-[BFTask continueWithExecutor:successBlock:cancellationToken:]
+__62-[BFTask continueWithExecutor:successBlock:cancellationToken:]_block_invoke
+__copy_helper_block_.160
+__destroy_helper_block_.161
+-[BFTask continueWithSuccessBlock:]
+-[BFTask continueWithSuccessBlock:cancellationToken:]
+-[BFTask warnOperationOnMainThread]
+-[BFTask waitUntilFinished]
+-[BFTask description]
+-[BFTask setCancelled:]
+-[BFTask setFaulted:]
+-[BFTask setCompleted:]
+-[BFTask lock]
+-[BFTask setLock:]
+-[BFTask condition]
+-[BFTask setCondition:]
+-[BFTask callbacks]
+-[BFTask setCallbacks:]
+-[BFTask .cxx_destruct]
+.str.1
+_unnamed_cfstring_.2
+.str.3
+_unnamed_cfstring_.4
+.str.5
+_unnamed_cfstring_.6
+.str.7
+_unnamed_cfstring_.8
+OBJC_METH_VAR_NAME_.9
+OBJC_SELECTOR_REFERENCES_.10
+OBJC_IVAR_$_BFTask._lock
+OBJC_CLASSLIST_REFERENCES_$_.11
+OBJC_IVAR_$_BFTask._condition
+OBJC_CLASSLIST_REFERENCES_$_.12
+OBJC_METH_VAR_NAME_.13
+OBJC_SELECTOR_REFERENCES_.14
+OBJC_IVAR_$_BFTask._callbacks
+OBJC_METH_VAR_NAME_.15
+OBJC_SELECTOR_REFERENCES_.16
+OBJC_METH_VAR_NAME_.17
+OBJC_SELECTOR_REFERENCES_.18
+OBJC_METH_VAR_NAME_.19
+OBJC_SELECTOR_REFERENCES_.20
+OBJC_METH_VAR_NAME_.21
+OBJC_SELECTOR_REFERENCES_.22
+OBJC_METH_VAR_NAME_.23
+OBJC_SELECTOR_REFERENCES_.24
+OBJC_METH_VAR_NAME_.25
+OBJC_SELECTOR_REFERENCES_.26
+OBJC_SELECTOR_REFERENCES_.28
+OBJC_METH_VAR_NAME_.29
+OBJC_SELECTOR_REFERENCES_.30
+OBJC_METH_VAR_NAME_.31
+OBJC_SELECTOR_REFERENCES_.32
+OBJC_SELECTOR_REFERENCES_.34
+OBJC_CLASSLIST_REFERENCES_$_.35
+OBJC_METH_VAR_NAME_.36
+OBJC_SELECTOR_REFERENCES_.37
+OBJC_METH_VAR_NAME_.38
+OBJC_SELECTOR_REFERENCES_.39
+OBJC_METH_VAR_NAME_.40
+OBJC_SELECTOR_REFERENCES_.41
+OBJC_METH_VAR_NAME_.42
+OBJC_SELECTOR_REFERENCES_.43
+OBJC_METH_VAR_NAME_.44
+OBJC_SELECTOR_REFERENCES_.45
+OBJC_METH_VAR_NAME_.46
+OBJC_SELECTOR_REFERENCES_.47
+OBJC_METH_VAR_NAME_.48
+OBJC_SELECTOR_REFERENCES_.49
+OBJC_METH_VAR_NAME_.50
+OBJC_SELECTOR_REFERENCES_.51
+OBJC_CLASSLIST_REFERENCES_$_.52
+.str.53
+_unnamed_cfstring_.54
+OBJC_CLASSLIST_REFERENCES_$_.55
+OBJC_METH_VAR_NAME_.56
+OBJC_SELECTOR_REFERENCES_.57
+OBJC_METH_VAR_NAME_.58
+OBJC_SELECTOR_REFERENCES_.59
+OBJC_METH_VAR_NAME_.60
+OBJC_SELECTOR_REFERENCES_.61
+OBJC_CLASSLIST_REFERENCES_$_.62
+OBJC_METH_VAR_NAME_.63
+OBJC_SELECTOR_REFERENCES_.64
+OBJC_METH_VAR_NAME_.65
+OBJC_SELECTOR_REFERENCES_.66
+OBJC_METH_VAR_NAME_.67
+OBJC_SELECTOR_REFERENCES_.68
+.str.69
+__block_descriptor_tmp
+OBJC_METH_VAR_NAME_.70
+OBJC_SELECTOR_REFERENCES_.71
+OBJC_METH_VAR_NAME_.72
+OBJC_SELECTOR_REFERENCES_.73
+OBJC_METH_VAR_NAME_.74
+OBJC_SELECTOR_REFERENCES_.75
+.str.76
+_unnamed_cfstring_.77
+OBJC_METH_VAR_NAME_.78
+OBJC_SELECTOR_REFERENCES_.79
+__block_descriptor_tmp.82
+OBJC_METH_VAR_NAME_.83
+OBJC_SELECTOR_REFERENCES_.84
+OBJC_METH_VAR_NAME_.85
+OBJC_SELECTOR_REFERENCES_.86
+OBJC_METH_VAR_NAME_.87
+OBJC_SELECTOR_REFERENCES_.88
+__block_descriptor_tmp.91
+.str.94
+__block_descriptor_tmp.95
+OBJC_METH_VAR_NAME_.96
+OBJC_SELECTOR_REFERENCES_.97
+OBJC_CLASSLIST_REFERENCES_$_.98
+OBJC_METH_VAR_NAME_.99
+OBJC_SELECTOR_REFERENCES_.100
+__block_descriptor_tmp.103
+__block_descriptor_tmp.106
+OBJC_METH_VAR_NAME_.107
+OBJC_SELECTOR_REFERENCES_.108
+OBJC_METH_VAR_NAME_.109
+OBJC_SELECTOR_REFERENCES_.110
+OBJC_IVAR_$_BFTask._result
+OBJC_METH_VAR_NAME_.111
+OBJC_SELECTOR_REFERENCES_.112
+OBJC_METH_VAR_NAME_.113
+OBJC_SELECTOR_REFERENCES_.114
+OBJC_METH_VAR_NAME_.115
+OBJC_SELECTOR_REFERENCES_.116
+OBJC_IVAR_$_BFTask._error
+OBJC_METH_VAR_NAME_.117
+OBJC_SELECTOR_REFERENCES_.118
+OBJC_IVAR_$_BFTask._exception
+OBJC_IVAR_$_BFTask._cancelled
+OBJC_IVAR_$_BFTask._faulted
+OBJC_METH_VAR_NAME_.119
+OBJC_SELECTOR_REFERENCES_.120
+OBJC_IVAR_$_BFTask._completed
+OBJC_METH_VAR_NAME_.121
+OBJC_SELECTOR_REFERENCES_.122
+OBJC_METH_VAR_NAME_.123
+OBJC_SELECTOR_REFERENCES_.124
+OBJC_METH_VAR_NAME_.125
+OBJC_SELECTOR_REFERENCES_.126
+OBJC_METH_VAR_NAME_.127
+OBJC_SELECTOR_REFERENCES_.128
+OBJC_METH_VAR_NAME_.129
+OBJC_SELECTOR_REFERENCES_.130
+OBJC_METH_VAR_NAME_.131
+OBJC_SELECTOR_REFERENCES_.132
+.str.133
+_unnamed_cfstring_.134
+OBJC_METH_VAR_NAME_.135
+OBJC_SELECTOR_REFERENCES_.136
+OBJC_METH_VAR_NAME_.137
+OBJC_SELECTOR_REFERENCES_.138
+__block_descriptor_tmp.141
+__block_descriptor_tmp.144
+OBJC_METH_VAR_NAME_.146
+OBJC_SELECTOR_REFERENCES_.147
+__block_descriptor_tmp.150
+OBJC_METH_VAR_NAME_.151
+OBJC_SELECTOR_REFERENCES_.152
+OBJC_CLASSLIST_REFERENCES_$_.153
+OBJC_METH_VAR_NAME_.154
+OBJC_SELECTOR_REFERENCES_.155
+OBJC_METH_VAR_NAME_.156
+OBJC_SELECTOR_REFERENCES_.157
+OBJC_METH_VAR_NAME_.158
+OBJC_SELECTOR_REFERENCES_.159
+__block_descriptor_tmp.162
+OBJC_CLASSLIST_REFERENCES_$_.163
+OBJC_METH_VAR_NAME_.164
+OBJC_SELECTOR_REFERENCES_.165
+OBJC_METH_VAR_NAME_.166
+OBJC_SELECTOR_REFERENCES_.167
+OBJC_METH_VAR_NAME_.168
+OBJC_SELECTOR_REFERENCES_.169
+OBJC_CLASSLIST_REFERENCES_$_.170
+.str.171
+_unnamed_cfstring_.172
+OBJC_METH_VAR_NAME_.173
+OBJC_SELECTOR_REFERENCES_.174
+.str.175
+_unnamed_cfstring_.176
+.str.177
+_unnamed_cfstring_.178
+.str.179
+_unnamed_cfstring_.180
+.str.181
+_unnamed_cfstring_.182
+OBJC_METH_VAR_NAME_.183
+OBJC_METH_VAR_NAME_.184
+OBJC_METH_VAR_TYPE_.185
+OBJC_METH_VAR_NAME_.186
+OBJC_METH_VAR_NAME_.187
+OBJC_METH_VAR_NAME_.188
+OBJC_METH_VAR_TYPE_.189
+OBJC_METH_VAR_NAME_.190
+OBJC_METH_VAR_TYPE_.191
+OBJC_METH_VAR_NAME_.192
+OBJC_METH_VAR_TYPE_.193
+l_OBJC_$_CLASS_METHODS_BFTask
+l_OBJC_METACLASS_RO_$_BFTask
+OBJC_CLASS_NAME_.194
+OBJC_METH_VAR_TYPE_.195
+OBJC_METH_VAR_TYPE_.196
+OBJC_METH_VAR_TYPE_.197
+OBJC_METH_VAR_TYPE_.198
+OBJC_METH_VAR_TYPE_.199
+OBJC_METH_VAR_NAME_.200
+OBJC_METH_VAR_TYPE_.201
+OBJC_METH_VAR_NAME_.202
+OBJC_METH_VAR_NAME_.203
+OBJC_METH_VAR_NAME_.204
+OBJC_METH_VAR_NAME_.205
+OBJC_METH_VAR_NAME_.206
+OBJC_METH_VAR_TYPE_.207
+OBJC_METH_VAR_NAME_.208
+OBJC_METH_VAR_TYPE_.209
+OBJC_METH_VAR_NAME_.210
+OBJC_METH_VAR_NAME_.211
+l_OBJC_$_INSTANCE_METHODS_BFTask
+OBJC_METH_VAR_NAME_.212
+OBJC_METH_VAR_TYPE_.213
+OBJC_METH_VAR_NAME_.214
+OBJC_METH_VAR_TYPE_.215
+OBJC_METH_VAR_NAME_.216
+OBJC_METH_VAR_TYPE_.217
+OBJC_METH_VAR_NAME_.218
+OBJC_METH_VAR_TYPE_.219
+OBJC_METH_VAR_NAME_.220
+OBJC_METH_VAR_NAME_.221
+OBJC_METH_VAR_NAME_.222
+OBJC_METH_VAR_TYPE_.223
+OBJC_METH_VAR_NAME_.224
+OBJC_METH_VAR_TYPE_.225
+OBJC_METH_VAR_NAME_.226
+OBJC_METH_VAR_TYPE_.227
+l_OBJC_$_INSTANCE_VARIABLES_BFTask
+OBJC_PROP_NAME_ATTR_.228
+OBJC_PROP_NAME_ATTR_.229
+OBJC_PROP_NAME_ATTR_.230
+OBJC_PROP_NAME_ATTR_.231
+OBJC_PROP_NAME_ATTR_.232
+OBJC_PROP_NAME_ATTR_.233
+OBJC_PROP_NAME_ATTR_.234
+OBJC_PROP_NAME_ATTR_.235
+OBJC_PROP_NAME_ATTR_.236
+OBJC_PROP_NAME_ATTR_.237
+OBJC_PROP_NAME_ATTR_.238
+OBJC_PROP_NAME_ATTR_.239
+OBJC_PROP_NAME_ATTR_.240
+OBJC_PROP_NAME_ATTR_.241
+OBJC_PROP_NAME_ATTR_.242
+OBJC_PROP_NAME_ATTR_.243
+OBJC_PROP_NAME_ATTR_.244
+l_OBJC_$_PROP_LIST_BFTask
+l_OBJC_CLASS_RO_$_BFTask
+-[BFTask .cxx_destruct]
+/Users/cooldude/Documents/MyCities/Carthage/Checkouts/Bolts-ObjC/Bolts/Common/BFTask.m
+-[BFTask setCallbacks:]
+-[BFTask callbacks]
+-[BFTask setCondition:]
+-[BFTask condition]
+-[BFTask setLock:]
+-[BFTask lock]
+-[BFTask setCompleted:]
+-[BFTask setFaulted:]
+-[BFTask setCancelled:]
+-[BFTask description]
+-[BFTask waitUntilFinished]
+-[BFTask warnOperationOnMainThread]
+-[BFTask continueWithSuccessBlock:cancellationToken:]
+-[BFTask continueWithSuccessBlock:]
+-[BFTask continueWithExecutor:successBlock:cancellationToken:]
+-[BFTask continueWithExecutor:withSuccessBlock:]
+-[BFTask continueWithBlock:cancellationToken:]
+-[BFTask continueWithBlock:]
+-[BFTask continueWithExecutor:block:cancellationToken:]
+-[BFTask continueWithExecutor:withBlock:]
+-[BFTask runContinuations]
+-[BFTask isCompleted]
+-[BFTask trySetCancelled]
+-[BFTask isFaulted]
+-[BFTask isCancelled]
+-[BFTask trySetException:]
+-[BFTask exception]
+-[BFTask trySetError:]
+-[BFTask error]
+-[BFTask trySetResult:]
+-[BFTask result]
++[BFTask taskFromExecutor:withBlock:]
++[BFTask taskWithDelay:cancellationToken:]
++[BFTask taskWithDelay:]
++[BFTask taskForCompletionOfAnyTask:]
++[BFTask taskForCompletionOfAllTasksWithResults:]
++[BFTask taskForCompletionOfAllTasks:]
++[BFTask cancelledTask]
++[BFTask taskWithException:]
++[BFTask taskWithError:]
++[BFTask taskWithResult:]
+-[BFTask initCancelled]
+-[BFTask initWithException:]
+-[BFTask initWithError:]
+-[BFTask initWithResult:]
+-[BFTask init]
+warnBlockingOperationOnMainThread
+/Users/cooldude/Documents/MyCities/Carthage/Checkouts/Bolts-ObjC/Bolts/Common/Bolts.m
++[BFCancellationTokenRegistration registrationWithToken:delegate:]
+-[BFCancellationTokenRegistration init]
+-[BFCancellationTokenRegistration dispose]
+-[BFCancellationTokenRegistration notifyDelegate]
+-[BFCancellationTokenRegistration throwIfDisposed]
+-[BFCancellationTokenRegistration token]
+-[BFCancellationTokenRegistration setToken:]
+-[BFCancellationTokenRegistration cancellationObserverBlock]
+-[BFCancellationTokenRegistration setCancellationObserverBlock:]
+-[BFCancellationTokenRegistration lock]
+-[BFCancellationTokenRegistration setLock:]
+-[BFCancellationTokenRegistration disposed]
+-[BFCancellationTokenRegistration setDisposed:]
+-[BFCancellationTokenRegistration .cxx_destruct]
+OBJC_IVAR_$_BFCancellationTokenRegistration._lock
+OBJC_METH_VAR_NAME_.12
+OBJC_SELECTOR_REFERENCES_.13
+OBJC_METH_VAR_NAME_.16
+OBJC_SELECTOR_REFERENCES_.17
+OBJC_METH_VAR_NAME_.20
+OBJC_SELECTOR_REFERENCES_.21
+OBJC_IVAR_$_BFCancellationTokenRegistration._token
+OBJC_IVAR_$_BFCancellationTokenRegistration._cancellationObserverBlock
+OBJC_IVAR_$_BFCancellationTokenRegistration._disposed
+l_OBJC_$_CLASS_METHODS_BFCancellationTokenRegistration
+l_OBJC_METACLASS_RO_$_BFCancellationTokenRegistration
+OBJC_METH_VAR_TYPE_.24
+OBJC_METH_VAR_TYPE_.26
+OBJC_METH_VAR_TYPE_.33
+l_OBJC_$_INSTANCE_METHODS_BFCancellationTokenRegistration
+OBJC_METH_VAR_NAME_.35
+OBJC_METH_VAR_TYPE_.36
+OBJC_METH_VAR_NAME_.37
+OBJC_METH_VAR_TYPE_.38
+OBJC_METH_VAR_NAME_.39
+OBJC_METH_VAR_TYPE_.40
+OBJC_METH_VAR_NAME_.41
+OBJC_METH_VAR_TYPE_.42
+l_OBJC_$_INSTANCE_VARIABLES_BFCancellationTokenRegistration
+OBJC_CLASS_NAME_.43
+OBJC_PROP_NAME_ATTR_.44
+OBJC_PROP_NAME_ATTR_.45
+OBJC_PROP_NAME_ATTR_.46
+OBJC_PROP_NAME_ATTR_.47
+OBJC_PROP_NAME_ATTR_.48
+OBJC_PROP_NAME_ATTR_.49
+OBJC_PROP_NAME_ATTR_.50
+l_OBJC_$_PROP_LIST_BFCancellationTokenRegistration
+l_OBJC_CLASS_RO_$_BFCancellationTokenRegistration
+-[BFCancellationTokenRegistration .cxx_destruct]
+/Users/cooldude/Documents/MyCities/Carthage/Checkouts/Bolts-ObjC/Bolts/Common/BFCancellationTokenRegistration.m
+-[BFCancellationTokenRegistration setDisposed:]
+-[BFCancellationTokenRegistration disposed]
+-[BFCancellationTokenRegistration setLock:]
+-[BFCancellationTokenRegistration lock]
+-[BFCancellationTokenRegistration setCancellationObserverBlock:]
+-[BFCancellationTokenRegistration cancellationObserverBlock]
+-[BFCancellationTokenRegistration setToken:]
+-[BFCancellationTokenRegistration token]
+-[BFCancellationTokenRegistration throwIfDisposed]
+-[BFCancellationTokenRegistration notifyDelegate]
+-[BFCancellationTokenRegistration dispose]
+-[BFCancellationTokenRegistration init]
++[BFCancellationTokenRegistration registrationWithToken:delegate:]
+-[BFCancellationTokenSource init]
++[BFCancellationTokenSource cancellationTokenSource]
+-[BFCancellationTokenSource isCancellationRequested]
+-[BFCancellationTokenSource cancel]
+-[BFCancellationTokenSource cancelAfterDelay:]
+-[BFCancellationTokenSource dispose]
+-[BFCancellationTokenSource token]
+-[BFCancellationTokenSource .cxx_destruct]
+OBJC_IVAR_$_BFCancellationTokenSource._token
+OBJC_CLASSLIST_REFERENCES_$_.3
+OBJC_METH_VAR_NAME_.4
+OBJC_SELECTOR_REFERENCES_.5
+OBJC_METH_VAR_NAME_.6
+OBJC_SELECTOR_REFERENCES_.7
+l_OBJC_$_CLASS_METHODS_BFCancellationTokenSource
+l_OBJC_METACLASS_RO_$_BFCancellationTokenSource
+OBJC_CLASS_NAME_.13
+OBJC_METH_VAR_TYPE_.14
+OBJC_METH_VAR_TYPE_.15
+OBJC_METH_VAR_TYPE_.16
+l_OBJC_$_INSTANCE_METHODS_BFCancellationTokenSource
+OBJC_METH_VAR_TYPE_.20
+l_OBJC_$_INSTANCE_VARIABLES_BFCancellationTokenSource
+OBJC_PROP_NAME_ATTR_.21
+OBJC_PROP_NAME_ATTR_.22
+OBJC_PROP_NAME_ATTR_.23
+l_OBJC_$_PROP_LIST_BFCancellationTokenSource
+l_OBJC_CLASS_RO_$_BFCancellationTokenSource
+-[BFCancellationTokenSource .cxx_destruct]
+/Users/cooldude/Documents/MyCities/Carthage/Checkouts/Bolts-ObjC/Bolts/Common/BFCancellationTokenSource.m
+-[BFCancellationTokenSource token]
+/Users/cooldude/Documents/MyCities/Carthage/Checkouts/Bolts-ObjC/Bolts/Common/BFCancellationTokenSource.h
+-[BFCancellationTokenSource dispose]
+-[BFCancellationTokenSource cancelAfterDelay:]
+-[BFCancellationTokenSource cancel]
+-[BFCancellationTokenSource isCancellationRequested]
++[BFCancellationTokenSource cancellationTokenSource]
+-[BFCancellationTokenSource init]
++[BFExecutor defaultExecutor]
+__29+[BFExecutor defaultExecutor]_block_invoke
+__29+[BFExecutor defaultExecutor]_block_invoke_2
+remaining_stack_size
++[BFExecutor immediateExecutor]
+__31+[BFExecutor immediateExecutor]_block_invoke
+__31+[BFExecutor immediateExecutor]_block_invoke_2
+__copy_helper_block_.5
+__destroy_helper_block_.6
++[BFExecutor mainThreadExecutor]
+__32+[BFExecutor mainThreadExecutor]_block_invoke
+__32+[BFExecutor mainThreadExecutor]_block_invoke_2
+__copy_helper_block_.13
+__destroy_helper_block_.14
++[BFExecutor executorWithBlock:]
++[BFExecutor executorWithDispatchQueue:]
+__40+[BFExecutor executorWithDispatchQueue:]_block_invoke
+__copy_helper_block_.21
+__destroy_helper_block_.22
++[BFExecutor executorWithOperationQueue:]
+__41+[BFExecutor executorWithOperationQueue:]_block_invoke
+__copy_helper_block_.29
+__destroy_helper_block_.30
+-[BFExecutor initWithBlock:]
+-[BFExecutor execute:]
+-[BFExecutor block]
+-[BFExecutor setBlock:]
+-[BFExecutor .cxx_destruct]
+defaultExecutor.defaultExecutor
+defaultExecutor.onceToken
+__block_literal_global
+__block_descriptor_tmp.2
+immediateExecutor.immediateExecutor
+immediateExecutor.onceToken
+__block_descriptor_tmp.3
+__block_literal_global.4
+OBJC_CLASS_NAME_.7
+__block_descriptor_tmp.8
+mainThreadExecutor.mainThreadExecutor
+mainThreadExecutor.onceToken
+__block_descriptor_tmp.11
+__block_literal_global.12
+OBJC_CLASS_NAME_.15
+__block_descriptor_tmp.16
+__block_descriptor_tmp.23
+OBJC_CLASSLIST_REFERENCES_$_.24
+__block_descriptor_tmp.31
+OBJC_SELECTOR_REFERENCES_.33
+OBJC_IVAR_$_BFExecutor._block
+OBJC_METH_VAR_NAME_.34
+OBJC_SELECTOR_REFERENCES_.35
+OBJC_CLASS_NAME_.36
+OBJC_METH_VAR_NAME_.43
+l_OBJC_$_CLASS_METHODS_BFExecutor
+l_OBJC_METACLASS_RO_$_BFExecutor
+OBJC_CLASS_NAME_.44
+OBJC_METH_VAR_NAME_.45
+OBJC_METH_VAR_TYPE_.46
+OBJC_METH_VAR_NAME_.47
+OBJC_METH_VAR_TYPE_.48
+OBJC_METH_VAR_TYPE_.49
+l_OBJC_$_INSTANCE_METHODS_BFExecutor
+OBJC_METH_VAR_NAME_.51
+OBJC_METH_VAR_TYPE_.52
+l_OBJC_$_INSTANCE_VARIABLES_BFExecutor
+OBJC_PROP_NAME_ATTR_.53
+l_OBJC_$_PROP_LIST_BFExecutor
+l_OBJC_CLASS_RO_$_BFExecutor
+dispatch_get_main_queue
+/Applications/Xcode-beta.app/Contents/Developer/Platforms/WatchOS.platform/Developer/SDKs/WatchOS2.2.sdk/usr/include/dispatch/queue.h
+/Users/cooldude/Documents/MyCities/Carthage/Checkouts/Bolts-ObjC/Bolts/Common/BFExecutor.m
+_dispatch_once
+/Applications/Xcode-beta.app/Contents/Developer/Platforms/WatchOS.platform/Developer/SDKs/WatchOS2.2.sdk/usr/include/dispatch/once.h
+-[BFExecutor .cxx_destruct]
+-[BFExecutor setBlock:]
+-[BFExecutor block]
+-[BFExecutor execute:]
+-[BFExecutor initWithBlock:]
++[BFExecutor executorWithOperationQueue:]
++[BFExecutor executorWithDispatchQueue:]
++[BFExecutor executorWithBlock:]
++[BFExecutor mainThreadExecutor]
++[BFExecutor immediateExecutor]
++[BFExecutor defaultExecutor]
+taskCatchExceptions
+BFTaskSetCatchesExceptions
+/Users/cooldude/Documents/MyCities/Carthage/Checkouts/Bolts-ObjC/Bolts/Common/BFTask+Exceptions.m
+BFTaskCatchesExceptions
+-[BFCancellationToken init]
+-[BFCancellationToken isCancellationRequested]
+-[BFCancellationToken cancel]
+-[BFCancellationToken notifyCancellation:]
+-[BFCancellationToken registerCancellationObserverWithBlock:]
+-[BFCancellationToken unregisterRegistration:]
+-[BFCancellationToken cancelPrivate]
+-[BFCancellationToken cancelAfterDelay:]
+-[BFCancellationToken dispose]
+-[BFCancellationToken throwIfDisposed]
+-[BFCancellationToken registrations]
+-[BFCancellationToken setRegistrations:]
+-[BFCancellationToken lock]
+-[BFCancellationToken setLock:]
+-[BFCancellationToken disposed]
+-[BFCancellationToken setDisposed:]
+-[BFCancellationToken .cxx_destruct]
+OBJC_IVAR_$_BFCancellationToken._registrations
+OBJC_IVAR_$_BFCancellationToken._lock
+OBJC_IVAR_$_BFCancellationToken._cancellationRequested
+OBJC_SELECTOR_REFERENCES_.23
+OBJC_CLASSLIST_REFERENCES_$_.33
+.str.50
+_unnamed_cfstring_.51
+OBJC_IVAR_$_BFCancellationToken._disposed
+l_OBJC_METACLASS_RO_$_BFCancellationToken
+OBJC_CLASS_NAME_.52
+OBJC_METH_VAR_TYPE_.53
+OBJC_METH_VAR_TYPE_.54
+OBJC_METH_VAR_TYPE_.55
+OBJC_METH_VAR_TYPE_.57
+OBJC_METH_VAR_NAME_.59
+OBJC_METH_VAR_TYPE_.60
+OBJC_METH_VAR_NAME_.61
+OBJC_METH_VAR_NAME_.62
+OBJC_METH_VAR_TYPE_.63
+l_OBJC_$_INSTANCE_METHODS_BFCancellationToken
+OBJC_METH_VAR_NAME_.64
+OBJC_METH_VAR_TYPE_.65
+OBJC_METH_VAR_NAME_.66
+OBJC_METH_VAR_TYPE_.68
+OBJC_METH_VAR_NAME_.69
+OBJC_METH_VAR_TYPE_.70
+l_OBJC_$_INSTANCE_VARIABLES_BFCancellationToken
+OBJC_PROP_NAME_ATTR_.71
+OBJC_PROP_NAME_ATTR_.72
+OBJC_PROP_NAME_ATTR_.73
+OBJC_PROP_NAME_ATTR_.74
+OBJC_PROP_NAME_ATTR_.75
+OBJC_PROP_NAME_ATTR_.76
+OBJC_PROP_NAME_ATTR_.77
+l_OBJC_$_PROP_LIST_BFCancellationToken
+l_OBJC_CLASS_RO_$_BFCancellationToken
+-[BFCancellationToken .cxx_destruct]
+/Users/cooldude/Documents/MyCities/Carthage/Checkouts/Bolts-ObjC/Bolts/Common/BFCancellationToken.m
+-[BFCancellationToken setDisposed:]
+-[BFCancellationToken disposed]
+-[BFCancellationToken setLock:]
+-[BFCancellationToken lock]
+-[BFCancellationToken setRegistrations:]
+-[BFCancellationToken registrations]
+-[BFCancellationToken throwIfDisposed]
+-[BFCancellationToken dispose]
+-[BFCancellationToken cancelAfterDelay:]
+-[BFCancellationToken cancelPrivate]
+-[BFCancellationToken unregisterRegistration:]
+-[BFCancellationToken registerCancellationObserverWithBlock:]
+-[BFCancellationToken notifyCancellation:]
+-[BFCancellationToken cancel]
+-[BFCancellationToken isCancellationRequested]
+-[BFCancellationToken init]

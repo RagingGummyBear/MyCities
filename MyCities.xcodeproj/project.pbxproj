@@ -14,6 +14,20 @@
 		8652F08A1D89B253004707C7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8652F0881D89B253004707C7 /* LaunchScreen.storyboard */; };
 		8652F0951D89B254004707C7 /* MyCitiesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8652F0941D89B254004707C7 /* MyCitiesTests.swift */; };
 		8652F0A01D89B254004707C7 /* MyCitiesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8652F09F1D89B254004707C7 /* MyCitiesUITests.swift */; };
+		8661B2D41DA1CC3000A98D32 /* CheckedInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8661B2D31DA1CC3000A98D32 /* CheckedInViewController.swift */; };
+		8671BBC41D99984200198B31 /* TownDisplayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8671BBC31D99984200198B31 /* TownDisplayViewController.swift */; };
+		8672E3B21D9D3F9B00495B8C /* AnnotationCalloutView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8672E3B11D9D3F9B00495B8C /* AnnotationCalloutView.xib */; };
+		868EFF061DA2EA7A0040E416 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86D075591D9AF0500077F6A8 /* MapKit.framework */; };
+		869D94FA1D9DB41C002BE997 /* StructureSelectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 869D94F91D9DB41C002BE997 /* StructureSelectionCell.swift */; };
+		86BCDA051DA3D15200B8D154 /* Fabric.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86BCDA011DA3D15200B8D154 /* Fabric.framework */; };
+		86BCDA061DA3D15200B8D154 /* TwitterKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86BCDA021DA3D15200B8D154 /* TwitterKit.framework */; };
+		86BCDA071DA3D15200B8D154 /* TwitterKitResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 86BCDA031DA3D15200B8D154 /* TwitterKitResources.bundle */; };
+		86BCDA081DA3D15200B8D154 /* TwitterCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86BCDA041DA3D15200B8D154 /* TwitterCore.framework */; };
+		86D075551D9AEA9D0077F6A8 /* StructureTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86D075541D9AEA9D0077F6A8 /* StructureTableViewController.swift */; };
+		86D075571D9AEE5F0077F6A8 /* MyClasses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86D075561D9AEE5F0077F6A8 /* MyClasses.swift */; };
+		86D0755C1D9AF95D0077F6A8 /* CustomCalloutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86D0755B1D9AF95D0077F6A8 /* CustomCalloutView.swift */; };
+		86F6F02A1DA03F8800C1B0F8 /* TransitionNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86F6F0291DA03F8800C1B0F8 /* TransitionNavigationController.swift */; };
+		86F6F02C1DA04BF200C1B0F8 /* BuildingConfirmation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86F6F02B1DA04BF200C1B0F8 /* BuildingConfirmation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +61,20 @@
 		8652F09B1D89B254004707C7 /* MyCitiesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyCitiesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8652F09F1D89B254004707C7 /* MyCitiesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCitiesUITests.swift; sourceTree = "<group>"; };
 		8652F0A11D89B254004707C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8661B2D31DA1CC3000A98D32 /* CheckedInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CheckedInViewController.swift; sourceTree = "<group>"; };
+		8671BBC31D99984200198B31 /* TownDisplayViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TownDisplayViewController.swift; sourceTree = "<group>"; };
+		8672E3B11D9D3F9B00495B8C /* AnnotationCalloutView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AnnotationCalloutView.xib; sourceTree = "<group>"; };
+		869D94F91D9DB41C002BE997 /* StructureSelectionCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StructureSelectionCell.swift; sourceTree = "<group>"; };
+		86BCDA011DA3D15200B8D154 /* Fabric.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Fabric.framework; path = MyCities/Fabric.framework; sourceTree = "<group>"; };
+		86BCDA021DA3D15200B8D154 /* TwitterKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TwitterKit.framework; path = MyCities/TwitterKit.framework; sourceTree = "<group>"; };
+		86BCDA031DA3D15200B8D154 /* TwitterKitResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = TwitterKitResources.bundle; path = MyCities/TwitterKitResources.bundle; sourceTree = "<group>"; };
+		86BCDA041DA3D15200B8D154 /* TwitterCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TwitterCore.framework; path = MyCities/TwitterCore.framework; sourceTree = "<group>"; };
+		86D075541D9AEA9D0077F6A8 /* StructureTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StructureTableViewController.swift; sourceTree = "<group>"; };
+		86D075561D9AEE5F0077F6A8 /* MyClasses.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyClasses.swift; sourceTree = "<group>"; };
+		86D075591D9AF0500077F6A8 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		86D0755B1D9AF95D0077F6A8 /* CustomCalloutView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomCalloutView.swift; sourceTree = "<group>"; };
+		86F6F0291DA03F8800C1B0F8 /* TransitionNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransitionNavigationController.swift; sourceTree = "<group>"; };
+		86F6F02B1DA04BF200C1B0F8 /* BuildingConfirmation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BuildingConfirmation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +82,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				868EFF061DA2EA7A0040E416 /* MapKit.framework in Frameworks */,
+				86BCDA081DA3D15200B8D154 /* TwitterCore.framework in Frameworks */,
+				86BCDA051DA3D15200B8D154 /* Fabric.framework in Frameworks */,
+				86BCDA061DA3D15200B8D154 /* TwitterKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +113,7 @@
 				8652F0931D89B254004707C7 /* MyCitiesTests */,
 				8652F09E1D89B254004707C7 /* MyCitiesUITests */,
 				8652F07D1D89B253004707C7 /* Products */,
+				86D075581D9AF04F0077F6A8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -100,9 +133,18 @@
 				8652F07F1D89B253004707C7 /* AppDelegate.swift */,
 				8652F0811D89B253004707C7 /* ViewController.swift */,
 				8652F0831D89B253004707C7 /* Main.storyboard */,
+				8661B2D31DA1CC3000A98D32 /* CheckedInViewController.swift */,
+				86F6F02B1DA04BF200C1B0F8 /* BuildingConfirmation.swift */,
+				86F6F0291DA03F8800C1B0F8 /* TransitionNavigationController.swift */,
+				86D075541D9AEA9D0077F6A8 /* StructureTableViewController.swift */,
+				86D075561D9AEE5F0077F6A8 /* MyClasses.swift */,
 				8652F0861D89B253004707C7 /* Assets.xcassets */,
 				8652F0881D89B253004707C7 /* LaunchScreen.storyboard */,
 				8652F08B1D89B253004707C7 /* Info.plist */,
+				8671BBC31D99984200198B31 /* TownDisplayViewController.swift */,
+				86D0755B1D9AF95D0077F6A8 /* CustomCalloutView.swift */,
+				8672E3B11D9D3F9B00495B8C /* AnnotationCalloutView.xib */,
+				869D94F91D9DB41C002BE997 /* StructureSelectionCell.swift */,
 			);
 			path = MyCities;
 			sourceTree = "<group>";
@@ -125,6 +167,18 @@
 			path = MyCitiesUITests;
 			sourceTree = "<group>";
 		};
+		86D075581D9AF04F0077F6A8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				86BCDA011DA3D15200B8D154 /* Fabric.framework */,
+				86BCDA021DA3D15200B8D154 /* TwitterKit.framework */,
+				86BCDA031DA3D15200B8D154 /* TwitterKitResources.bundle */,
+				86BCDA041DA3D15200B8D154 /* TwitterCore.framework */,
+				86D075591D9AF0500077F6A8 /* MapKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +186,10 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8652F0A41D89B254004707C7 /* Build configuration list for PBXNativeTarget "MyCities" */;
 			buildPhases = (
-				8652F0781D89B253004707C7 /* Sources */,
 				8652F0791D89B253004707C7 /* Frameworks */,
+				8652F0781D89B253004707C7 /* Sources */,
 				8652F07A1D89B253004707C7 /* Resources */,
+				86BCDA001DA3D10300B8D154 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -188,21 +243,24 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0730;
-				LastUpgradeCheck = 0730;
+				LastUpgradeCheck = 0800;
 				ORGANIZATIONNAME = "Organization Name";
 				TargetAttributes = {
 					8652F07B1D89B253004707C7 = {
 						CreatedOnToolsVersion = 7.3;
 						DevelopmentTeam = YDC8GRH2PF;
+						LastSwiftMigration = 0820;
 					};
 					8652F08F1D89B254004707C7 = {
 						CreatedOnToolsVersion = 7.3;
 						DevelopmentTeam = YDC8GRH2PF;
+						LastSwiftMigration = 0820;
 						TestTargetID = 8652F07B1D89B253004707C7;
 					};
 					8652F09A1D89B254004707C7 = {
 						CreatedOnToolsVersion = 7.3;
 						DevelopmentTeam = YDC8GRH2PF;
+						LastSwiftMigration = 0820;
 						TestTargetID = 8652F07B1D89B253004707C7;
 					};
 				};
@@ -232,9 +290,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8672E3B21D9D3F9B00495B8C /* AnnotationCalloutView.xib in Resources */,
 				8652F08A1D89B253004707C7 /* LaunchScreen.storyboard in Resources */,
 				8652F0871D89B253004707C7 /* Assets.xcassets in Resources */,
 				8652F0851D89B253004707C7 /* Main.storyboard in Resources */,
+				86BCDA071DA3D15200B8D154 /* TwitterKitResources.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,13 +314,38 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		86BCDA001DA3D10300B8D154 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 12;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "./Fabric.framework/run 5be0ce5a5c8f7b32a4a2eb1fa99694da9b3c8986 49c3d0680c971b7fccf1c24ab54da9c83055fed4cb2b86138841d0ae232ab7f4";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		8652F0781D89B253004707C7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				86D0755C1D9AF95D0077F6A8 /* CustomCalloutView.swift in Sources */,
+				869D94FA1D9DB41C002BE997 /* StructureSelectionCell.swift in Sources */,
 				8652F0821D89B253004707C7 /* ViewController.swift in Sources */,
+				86D075551D9AEA9D0077F6A8 /* StructureTableViewController.swift in Sources */,
+				8671BBC41D99984200198B31 /* TownDisplayViewController.swift in Sources */,
 				8652F0801D89B253004707C7 /* AppDelegate.swift in Sources */,
+				86F6F02A1DA03F8800C1B0F8 /* TransitionNavigationController.swift in Sources */,
+				86F6F02C1DA04BF200C1B0F8 /* BuildingConfirmation.swift in Sources */,
+				86D075571D9AEE5F0077F6A8 /* MyClasses.swift in Sources */,
+				8661B2D41DA1CC3000A98D32 /* CheckedInViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -329,8 +414,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -374,8 +461,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -394,6 +483,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -402,10 +492,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+					"$(PROJECT_DIR)/MyCities",
+				);
 				INFOPLIST_FILE = MyCities/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.simpleorg.MyCities;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -413,10 +509,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+					"$(PROJECT_DIR)/MyCities",
+				);
 				INFOPLIST_FILE = MyCities/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.simpleorg.MyCities;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -428,6 +530,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.simpleorg.MyCitiesTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyCities.app/MyCities";
 			};
 			name = Debug;
@@ -440,6 +543,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.simpleorg.MyCitiesTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyCities.app/MyCities";
 			};
 			name = Release;
@@ -451,6 +555,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.simpleorg.MyCitiesUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = MyCities;
 			};
 			name = Debug;
@@ -462,6 +567,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.simpleorg.MyCitiesUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = MyCities;
 			};
 			name = Release;
@@ -485,6 +591,7 @@
 				8652F0A61D89B254004707C7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8652F0A71D89B254004707C7 /* Build configuration list for PBXNativeTarget "MyCitiesTests" */ = {
 			isa = XCConfigurationList;
@@ -493,6 +600,7 @@
 				8652F0A91D89B254004707C7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8652F0AA1D89B254004707C7 /* Build configuration list for PBXNativeTarget "MyCitiesUITests" */ = {
 			isa = XCConfigurationList;
@@ -501,6 +609,7 @@
 				8652F0AC1D89B254004707C7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
