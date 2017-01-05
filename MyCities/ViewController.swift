@@ -174,6 +174,33 @@ class ViewController: UIViewController,CLLocationManagerDelegate {
             
             }, completion: nil);
         
+        
+        self.checkInButton.alpha = 0
+        
+        self.seeTownButton.alpha = 0
+        
+        self.aboutMainMenuButton.alpha = 0
+        
+        self.addNewLocationButton.alpha = 0
+        
+        
+        UIView.animate(withDuration: 1.5, animations: {
+            
+            self.checkInButton.alpha = 1.0
+            
+            self.seeTownButton.alpha = 1.0
+            
+            self.aboutMainMenuButton.alpha = 1.0
+            
+            self.addNewLocationButton.alpha = 1.0
+            /*
+            self.myFirstLabel.alpha = 1.0
+            self.myFirstButton.alpha = 1.0
+            self.mySecondButton.alpha = 1.0
+ */
+        })
+        
+        
     }
     
     
